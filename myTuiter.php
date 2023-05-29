@@ -15,12 +15,12 @@
         <div class="contenedor-navbar">
             <div class="">
                 <?php
-                    $usuario = "LOL";
+                    $usuario = "FERSA";
                     $ruta_foto = "./statics/media/img/perfil_fersa.png";
                     echo "<img src='$ruta_foto' alt='imagen de $usuario' class='img_perfil'>";
                 ?>
             </div>
-            <div>                
+            <div id="contInfoUsers">                
                 <?php                                
                     echo "<h1> 
                             $usuario
@@ -29,30 +29,41 @@
                 ?>
             </div>
         </div>    
+    </nav>  
+    <div class="formulario">
+        <form action="./dynamics/php/crearPublicación.php" method="post">
+            <fieldset>
+                <h4><label for="">¡Haz tu tuit personalizado!</label></h4>
+                <h2><label for="">¿Qué estas pensando?</label></h2>
+                <textarea name="descripcion" id="textaDescripcion" cols="30" rows="10" placeholder="Ingresa tu texto" required></textarea>
+
+                <h3><label for="">Ingresa el número de <span class="spanRojo">Me gusta</span></label></h3>
+                <input name="n_corazones" id="iptLikes"  type="number" placeholder="¿Cuántos likes quieres? :O" required>
+                
+
+                <label for="">Ingresa el numero de comentarios</label>
+                <input name="n_comentarios" type="number" placeholder="¿Cuánto chisme quieres?" required>
+
+                <label for="">Ingresa el numero de retuits</label>
+                <input name="n_retuits" type="number" placeholder="¿Cuánta funa quieres?" required>
+
+                <div class="cont-btns-form">
+                    <button id="btnEnviar" class="btns" type="submit">Enviar</button>
+                    <button class="btns" type="reset">Reset</button>
+                </div>
+                
+            </fieldset>
+        </form> 
+        <div class="contCenter">
+            <a href="./misPublicaciones.php">
+                <button class="btns" >Ver publicaciones anteriores</button>
+            </a>
+        </div>
         
-        
-        
-    </nav>    
-    <form action="./" method="post">
-        <fieldset>
-            <label for="">¿Qué estas pensando?</label>
-            <input type="text">
+    </div> 
+    
 
-            <label for=""></label>
-            <input type="text">
-
-            <label for=""></label>
-            <input type="text">
-
-
-            <button type="submit">Enviar</button>
-            <button type="reset">Reset</button>
-        </fieldset>
-    </form> 
-
-    <a href="./misPublicaciones.php">
-        <button>Ver publicaciones anteriores</button>
-    </a>
+    
     <?php
 
     ?>

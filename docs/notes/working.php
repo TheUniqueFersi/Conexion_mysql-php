@@ -22,7 +22,9 @@
     //Parte de los ternarios (iria dentro del if de arriba)
     //$id_busqueda = (isset($_POST["ID_busqueda"]) && $_POST["ID_busqueda"] != "") ? $_POST["ID_busqueda"] : false;
 
-
+    $id_busqueda = (isset($_POST["ID_busqueda"]) && $_POST["ID_busqueda"] != "") ? $_POST["ID_busqueda"] : false;
+    $id_busqueda = (isset($_POST["ID_busqueda"]) && $_POST["ID_busqueda"] != "") ? $_POST["ID_busqueda"] : false;
+    $id_busqueda = (isset($_POST["ID_busqueda"]) && $_POST["ID_busqueda"] != "") ? $_POST["ID_busqueda"] : false;
 
 
 

@@ -1,6 +1,122 @@
+@font-face {
+    font-family: 'Tuiter Font';
+    src: url("../media/fonts/LastingSketch.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 *
 {
-   background-color: whitesmoke; 
+    /* margin:0;
+    padding:0; */
+    /* border:0; */
+    /* outline:0; */
+    /* font-size:100%;
+    vertical-align:baseline; */
+    /* background:transparent; */
+    
+    
+    background-color: whitesmoke; 
+}
+nav{
+    padding: 5vh;
+}
+
+button, input{
+    width: 50%;
+}
+
+textarea, input{
+    font-family: 'Tuiter Font';
+    font-size: 20px;
+    font-weight: 400;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    border-color: rgb(29, 155, 240);    
+}
+
+input{
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;    
+    
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+.spanRojo{
+    color: red;
+}
+
+fieldset, label, .cont-btns-form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+    background-color: rgb(191, 230, 227);
+}
+
+fieldset>*{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.formulario{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 20vh;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+
+.cont-btns-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btns{
+    font-family: 'Tuiter Font';
+    font: inherit;
+    font-size: large;
+    width: max-content;
+    /* width: 50%; */
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-color: rgb(29, 155, 240);
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;    
+
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+
+    
+    min-height: 36px;
+
+
+    
+}
+button:hover{
+
 }
 
 img.img_perfil{
@@ -12,4 +128,21 @@ img.img_perfil{
 .contenedor-navbar{
     display: flex;
     justify-content: center;
+}
+
+.contCenter{
+    display: flex;
+    justify-content: center;
+}
+
+#btnEnviar{
+    
+}
+
+#contInfoUsers{
+    margin-left: 5vh;
+}
+
+#iptLikes{
+    margin-top: 0vh;
 }
