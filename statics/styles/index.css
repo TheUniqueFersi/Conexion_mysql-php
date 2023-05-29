@@ -1,3 +1,15 @@
-img{
+*
+{
+   background-color: whitesmoke; 
+}
+
+img.img_perfil{
     width: 15vh;
+    height: 15vh;
+    border-radius: 50%;    
+}
+
+.contenedor-navbar{
+    display: flex;
+    justify-content: center;
 }
