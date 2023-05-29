@@ -45,9 +45,15 @@
         var_dump($datos);
 
 
+        //Ver la cantidad de registros 
+        $sql2 = "SELECT COUNT(*) AS num_registros FROM publicacion WHERE ID_USUARIO = 1";
+        $query = mysqli_query($con, $sql2);
+        $datos2 = mysqli_fetch_assoc($query);
+        var_dump($datos2);
 
 
 
+/*
         $datos = mysqli_fetch_assoc($query);
         echo "<br>";
         echo "<br>";
@@ -60,6 +66,7 @@
         echo "<br>";
         echo "<br>";    
         var_dump($datos);
+        */
 
     // }
 
