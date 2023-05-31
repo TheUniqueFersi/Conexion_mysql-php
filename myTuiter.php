@@ -15,7 +15,7 @@
         <div class="contenedor-navbar">
             <div class="">
                 <?php
-                    $usuario = "FERSA";
+                    $usuario = "Fersi - Fersa";
                     $ruta_foto = "./statics/media/img/perfil_fersa.png";
                     echo "<img src='$ruta_foto' alt='imagen de $usuario' class='img_perfil'>";
                 ?>
