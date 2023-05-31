@@ -2,7 +2,7 @@
     const DBHOST = "localhost";
     const DBUSER = "root";
     const PASSWORD = "";
-    const DB = "mytuiter";
+    const DB = "mytuiterprueba";
 
     function connect()
     {
@@ -15,7 +15,7 @@
         
     }
     // --PASO : llamar a la funcion antes de pasarla a otro archivo
-    connect();
+    //connect();
 
 
 ?>
