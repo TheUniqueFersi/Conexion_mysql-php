@@ -35,9 +35,9 @@
             <fieldset>
                 <h4><label for="">¡Haz tu tuit personalizado!</label></h4>
                 <h2><label for="">¿Qué estas pensando?</label></h2>
-                <textarea name="descripcion" id="textaDescripcion" cols="30" rows="10" placeholder="Ingresa tu texto" required></textarea>
+                <textarea name="descripcion" id="textaDescripcion" cols="30" rows="3" placeholder="Ingresa tu texto" required></textarea>
 
-                <h3><label for="">Ingresa el número de <span class="spanRojo">Me gusta</span></label></h3>
+                <h3><label for="" id="labelMeGusta"> <span>Ingresa el número de&nbsp;</span><span class="spanRojo">Me gusta</span></label></h3>
                 <input name="n_corazones" id="iptLikes"  type="number" placeholder="¿Cuántos likes quieres? :O" required>
                 
 
