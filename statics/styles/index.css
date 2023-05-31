@@ -172,7 +172,7 @@ span{
 /*--------------------------------------- PUBLICACIONES -------------------------------------------*/
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     /* justify-content: center;         */
 }
 article>div, div>div{
@@ -217,4 +217,9 @@ div>span{
 }
 .fotoPerfil{
     padding-right: 5vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }

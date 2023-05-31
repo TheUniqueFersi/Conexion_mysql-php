@@ -9,13 +9,6 @@
     <link rel="icon" href="../../statics/media/img/resources/tuiter.png">
 </head>
 <body>
-        <div class="contCenter">
-            <a href="../../misPublicaciones.php">
-                <button class="btns" >Ver publicaciones anteriores</button>
-            </a>
-        </div>
-</body>
-</html>
 <?php
     $include = include("./config.php");
     $con = connect();
@@ -44,7 +37,7 @@
         echo "<br><br>";
 
         $peticion = "INSERT INTO publicacion VALUES
-            (0, 1, '$descripcion', NULL, NULL, $n_corazones, $n_comentarios, $n_retuits)";
+            (0, 1, '$descripcion', '31-05-2023', '01:00', $n_corazones, $n_comentarios, $n_retuits)";
 
         $query = mysqli_query($con, $peticion);
 
@@ -61,3 +54,10 @@
 
 
 ?>
+        <div class="contCenter">
+            <a href="../../misPublicaciones.php">
+                <button class="btns" >Ver publicaciones anteriores</button>
+            </a>
+        </div>
+</body>
+</html>

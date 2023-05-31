@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./statics/styles/index.css">
 </head>
 <body>    
+    <div class="center">
+        <a href="./myTuiter.php">
+            <button class="btns">Volver a Inicio</button>
+        </a>
+    </div>
     <main>    
         <?php
             $include = include("./dynamics/php/config.php");   
